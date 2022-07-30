@@ -1,0 +1,67 @@
+* {
+    font-family: sans-serif;
+}
+
+.Logo {
+    font-size: 14px;
+    color: #9A9FAD !important;
+}
+
+.SideBar {
+    width: 80px;
+    background: #FBFBFB;
+    padding-top: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-right: 1px solid #eee;
+    min-height: 100vh;
+
+}
+
+.SideBar-Option:hover {
+    border-radius: 8px;
+    cursor: pointer;
+    padding: 5px;
+    background-color: #9a9fad4b !important;
+
+
+}
+
+.SideBar-Options {
+    padding-top: 45px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.SideBar-Option {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 18px;
+}
+
+.SideBar-Option-name {
+    font-size: 11px;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+    padding-top: 4px;
+    color: #9A9FAD !important;
+}
+
+.SideBar-Option-Icon {
+    color: #9A9FAD !important;
+}
+
+
+@media (max-width: 580px) {
+    .SideBar {
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 80px;
+    }
+
+}
